@@ -1,6 +1,8 @@
 # 🏢 HRM — Recruitment Module
 
-![Status](https://img.shields.io/badge/status-active-brightgreen) ![Stack](https://img.shields.io/badge/stack-React%20%7C%20Spring%20Boot%20%7C%20PostgreSQL-blue) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![Status](https://img.shields.io/badge/status-active-brightgreen) ![Stack](https://img.shields.io/badge/stack-React%20%7C%20Python%20%7C%20PostgreSQL-blue) ![AI](https://img.shields.io/badge/AI-NLP%20%7C%20Resume%20Parsing%20%7C%20RAG-orange) ![Tools](https://img.shields.io/badge/tools-FastAPI%20%7C%20spaCy%20%7C%20Transformers-yellow) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+![Status](https://img.shields.io/badge/status-active-brightgreen) ![Stack](https://img.shields.io/badge/stack-React%20%7C%20Python%20%7C%20PostgreSQL-blue) ![AI](https://img.shields.io/badge/AI-NLP%20%7C%20Resume%20Parsing%20%7C%20RAG-orange) ![Tools](https://img.shields.io/badge/tools-FastAPI%20%7C%20spaCy%20%7C%20Transformers-yellow) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 > A full-cycle **Recruitment Management System** — handling everything from AI-assisted job creation and LinkedIn publishing to resume screening, interview scheduling, and offer delivery.
 
