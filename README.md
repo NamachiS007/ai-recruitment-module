@@ -39,12 +39,12 @@ Recruiting
 ├── Add New Job          ← Create & configure vacancies
 ├── Manage Jobs          ← Monitor listings & applicant counts
 │   └── Publish          ← LinkedIn external job publishing
+│   └── Candidate Detail
+│     ├── Overview         ← Profile & contact info
+│     ├── AI Analysis      ← Resume parsing & match score
+│     ├── Interview Schedule
+│     └── Evaluation Notes
 ├── Candidates           ← Global talent pool view
-└── Candidate Detail
-    ├── Overview         ← Profile & contact info
-    ├── AI Analysis      ← Resume parsing & match score
-    ├── Interview Schedule
-    └── Evaluation Notes
 ```
 
 ---
