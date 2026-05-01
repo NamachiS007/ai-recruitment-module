@@ -1,6 +1,8 @@
-# 🏢 Recruitment Module
+# 🏢 HRM — Recruitment Module
 
-> A full-cycle recruitment management system built with **React.js**, **Spring Boot**, **PostgreSQL**, and **Apache Kafka** — covering everything from job creation to offer dispatch.
+![Status](https://img.shields.io/badge/status-active-brightgreen) ![Stack](https://img.shields.io/badge/stack-React%20%7C%20Spring%20Boot%20%7C%20PostgreSQL-blue) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+> A full-cycle **Recruitment Management System** — handling everything from AI-assisted job creation and LinkedIn publishing to resume screening, interview scheduling, and offer delivery.
 
 ---
 
@@ -24,7 +26,7 @@
 
 ## Overview
 
-**HRM Power** is an enterprise Human Resource Management platform. This repository documents the **Recruiting & Talent Acquisition** module, which handles the complete lifecycle of a job vacancy — from posting to hiring.
+**HRM** is a personal full-stack project simulating an enterprise-grade HR platform. This module focuses on **Recruiting & Talent Acquisition**, managing the complete lifecycle of a job vacancy — from posting to hiring.
 
 ```
 Job Created → Published → Applications Received → AI Screening → Interview → Offer Sent
@@ -132,7 +134,7 @@ The **Publish** tab inside the Job Configuration modal allows recruiters to push
 
 | Credential | Description |
 |---|---|
-| Client ID | Unique identifier for the HRM Power LinkedIn app |
+| Client ID | Unique identifier for the HRM LinkedIn app |
 | Client Secret | Confidential key for server-side authentication |
 | Permissions | `w_member_social` (member feed) or `w_organization_social` (company page) |
 
@@ -147,7 +149,7 @@ The **Publish** tab inside the Job Configuration modal allows recruiters to push
        ↓
 4. LinkedIn returns Authorization Code on success
        ↓
-5. HRM Power backend exchanges code for Access Token
+5. HRM backend exchanges code for Access Token
        ↓
 6. Post is automatically executed on LinkedIn
        ↓
@@ -411,7 +413,7 @@ POST https://api.linkedin.com/v2/ugcPosts
 }
 ```
 
-> Authentication via **OAuth 2.0** — HRM Power backend exchanges the Authorization Code for an Access Token before executing this call.
+> Authentication via **OAuth 2.0** — HRM backend exchanges the Authorization Code for an Access Token before executing this call.
 
 ---
 
@@ -461,6 +463,5 @@ All major state transitions publish events to **Apache Kafka**:
 
 ---
 
-> **Built by iCore Software Systems Private Limited**  
-> Module: Recruiting & Talent Acquisition | HRM Power v1.0  
+> 🚀 **HRM** — Personal Project | Recruiting & Talent Acquisition Module v1.0  
 > Complete Flow: Job Creation → Management → LinkedIn Publishing → Candidate Assessment → Offer Delivery
