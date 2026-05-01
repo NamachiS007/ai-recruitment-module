@@ -1,4 +1,4 @@
-# 🏢 HRM Power — Recruitment Module
+# 🏢 Recruitment Module
 
 > A full-cycle recruitment management system built with **React.js**, **Spring Boot**, **PostgreSQL**, and **Apache Kafka** — covering everything from job creation to offer dispatch.
 
